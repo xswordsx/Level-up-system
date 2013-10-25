@@ -4,6 +4,7 @@ Links to Helpful and Importaint Materials
 	<li><a href="http://www.alfiekohn.org/teaching/fdtd-g.htm">From Degrading to De-Grading</a></li>
 	<li><a href="http://www.youtube.com/watch?v=MuDLw1zIc94">Extra Credits: Gamifying Education</a></li>
 	<li><a href="http://www.deathball.net/notpron">Deathball - Notpron</a></li>
+	<li><a href="http://sendgrid.com/blog/win-hackathon-increase-odds/">Increase your odds @ winning a hackathon</a></li>
 </ul>
 
 
