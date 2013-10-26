@@ -2,7 +2,6 @@
 
 require_once('lib/adodb/adodb.inc.php');
 require_once('lib/smarty/Smarty.class.php');
-require_once ('lib/phpmailer/class.phpmailer.php');
 
 define('CONFIG_DB_SERVER', 'pdb3.awardspace.net'); // DB SERVER
 define("CONFIG_DB_USER",'1373333_hack'); // DB USERNAME
