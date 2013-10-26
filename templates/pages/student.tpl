@@ -1,4 +1,3 @@
-heloooooo
 <div id="wrapper">
     <div id="skills">
     </div>
