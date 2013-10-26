@@ -6,8 +6,10 @@
 <script src="../scripts/jquery-2.0.3.js"></script>
 <script src="../scripts/rsvp.min.js"></script>
 <script src="../scripts/httpRequester.js"></script>
+<link rel="stylesheet" type="text/css" href="../styles/index.css" />
 </head>
 <body>
+<div id="container">
 {$result}
 <div id="menu">
 {if !$user_info}
@@ -24,6 +26,6 @@
 {if $page eq 'student'} {include file='templates/pages/student.tpl'}{/if}
 {if $page eq 'teacher' and $user_info.Access_level eq '2'} {include file='templates/pages/teacher.tpl'}{/if}
 {if $page eq 'admin_class' and $user_info.Access_level eq '1'}{include file='templates/pages/admin_class.tpl'}{/if}
-
+</div>
 </body>
 </html>
