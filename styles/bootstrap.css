@@ -191,7 +191,11 @@ body {
   font-size: 14px;
   line-height: 1.428571429;
   color: #333333;
+<<<<<<< HEAD
+  /*background-color: #ffffff;*/
+=======
   background-color: #ffffff;
+>>>>>>> 4be174baba1912d36576f3bc152e9b76f8b24045
 }
 input,
 button,

@@ -1,5 +1,25 @@
-<div id="wrapper">
-<<<<<<< HEAD
+<?php /* Smarty version Smarty-3.1.8, created on 2013-10-27 04:35:48
+         compiled from "templates/pages/student.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1277622966526bb09fd2cf19-46261248%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '7071d21e109e836aac06805bd0b290a15822c4cc' => 
+    array (
+      0 => 'templates/pages/student.tpl',
+      1 => 1382848537,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1277622966526bb09fd2cf19-46261248',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_526bb09fd6a805_99129492',
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_526bb09fd6a805_99129492')) {function content_526bb09fd6a805_99129492($_smarty_tpl) {?><div id="wrapper">
     <div id="success-message" class="success">
         &nbsp;
     </div>
@@ -205,39 +225,4 @@
             
         </script>
     </div>
-=======
-    <div id="skills">
-    </div>
-    </div>
-    <script>
-        function addSkill(id){
-            var skillNode = $("#skill-"+id).css("border", "5px solid red");
-            skillNode.className = "activated";
-
-        }
-        var skillNodes = [
-            {id: 1,level:0, depth:1, src:"../img/icon1.jpg"},
-            {id: 2,level:1, depth:0, src:"../img/icon1.jpg"},
-            {id: 3,level:1, depth:2, src:"../img/icon1.jpg"},
-            {id: 4,level:2, depth:1, src:"../img/icon1.jpg"},
-            {id: 5,level:2, depth:2, src:"../img/icon1.jpg"},
-            {id: 6,level:3, depth:1, src:"../img/icon1.jpg"}
-        ];
-        (function renderSkillNodes(skills){
-            for(var i = 0; i<skills.length; i++){
-                var div = document.createElement("div");
-                var img = document.createElement("img");
-                img.src = skills[i].src;
-                div.appendChild(img);
-                div.className = "icon";
-                div.style.position = "absolute";
-                div.style.top = skills[i].level*110 + "px";
-                div.style.left = skills[i].depth*100 + "px";
-                div.id = "skill-"+skills[i].id;
-                div.setAttribute("onclick","addSkill("+skills[i].id+")");
-                $("#skills").append(div);
-            }
-        }(skillNodes));
-    </script>
->>>>>>> 4be174baba1912d36576f3bc152e9b76f8b24045
-</div>
+</div><?php }} ?>
